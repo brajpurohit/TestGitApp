@@ -23,6 +23,7 @@ namespace GitTestApp.Controllers
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
+            // chages updated by Bhup
             ViewBag.ReturnUrl = returnUrl;
             return View();
         }
