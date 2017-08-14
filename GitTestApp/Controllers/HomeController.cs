@@ -17,6 +17,7 @@ namespace GitTestApp.Controllers
 
         public ActionResult About()
         {
+            // home page about action has been changed. 
             ViewBag.Message = "Your app description page.";
 
             return View();
